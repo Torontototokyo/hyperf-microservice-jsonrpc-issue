@@ -1,0 +1,17 @@
+version: '3'
+networks:
+  micros:
+    external: true
+services:
+  consumer:
+    networks:
+      - micros
+    build:
+      context: comsumer
+  producer:
+    networks:
+      - micros
+    build:
+      context: producer
+    ports:
+      - 9501:9501
