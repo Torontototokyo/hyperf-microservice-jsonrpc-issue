@@ -28,11 +28,11 @@ return [
                     'data_id' => 'hyperf-service-config',
                     'group' => 'DEFAULT_GROUP',
                 ],
-                'nacos_config.data' => [
-                    'data_id' => 'hyperf-service-config',
-                    'group' => 'DEFAULT_GROUP',
-                    'type' => 'json',
-                ],
+//                'nacos_config.data' => [
+//                    'data_id' => 'hyperf-service-config',
+//                    'group' => 'DEFAULT_GROUP',
+//                    'type' => 'json',
+//                ],
             ],
         ],
     ],
